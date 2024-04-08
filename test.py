@@ -51,7 +51,7 @@ if pass1 == "helloJ":
 
         #if values are same !
         if userinp == x:
-            print("Draw")
+            print("Draw\n")
 
         elif userinp == 1: #rock == 1, scissor == 3
             if x == 2:
@@ -73,18 +73,17 @@ if pass1 == "helloJ":
         
         elif userinp == 3:
             if x == 1:
-                print("I was ---> Rock")
+                print("I was ---> Rock\n")
                 print("You are Looser !\n")
             elif x == 2:
                 print("I was Paper \n")
                 print("You Won ! \n")
                 score = score + 1 
-        
         else:
             print("You entered a wrong input !\n")
-        
+
+    print("All Done : Check Your score !")
     print(f"Your score = {score} of {playtime}")
 
 else:
     print("You entered a wrong password ! , CBI / FBI is on you now !")
-    
